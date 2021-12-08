@@ -1,0 +1,232 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Regular, Arial, Verdana, sans-serif;
+  font-weight: 400;
+  color: white;
+}
+.container {
+  background-image: url(./img/dart.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: center;
+  height: 709px;
+  max-width: 1900px;
+  background-size: cover;
+}
+.header {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 30px;
+  margin-left: 118px;
+}
+.logo {
+  width: 215px;
+  height: 25px;
+}
+nav ul {
+  display: flex;
+  font-size: 13px;
+  font-weight: 700;
+}
+nav ul li {
+  list-style-type: none;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+}
+.information {
+  padding-top: 295px;
+  margin-left: 118px;
+}
+.information h4 {
+  font-size: 16px;
+  font-family: D-DIN-Medium, Arial, Verdana, sans-serif;
+  font-weight: 400;
+}
+.information h1 {
+  font-size: 42px;
+  width: 600px;
+  font-family: D-DIN-Bold, Arial, Verdana, sans-serif;
+  font-weight: 550;
+}
+.information button {
+  background: transparent;
+  border: 3px solid white;
+  padding: 15px 40px;
+}
+.information button a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+.button {
+  padding-top: 18px;
+}
+.information2 {
+  background-image: url(./img/currnet.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: center;
+  height: 709px;
+  max-width: 1900px;
+  background-size: cover;
+}
+.container2 {
+  padding-top: 355px;
+  margin-left: 118px;
+}
+.information2 h4 {
+  font-size: 16px;
+  font-family: D-DIN-Medium, Arial, Verdana, sans-serif;
+  font-weight: 400;
+}
+.information2 h1 {
+  font-size: 42px;
+  width: 600px;
+  font-family: D-DIN-Bold, Arial, Verdana, sans-serif;
+  font-weight: 550;
+}
+.information2 button {
+  background: transparent;
+  border: 3px solid white;
+  padding: 15px 40px;
+}
+.information2 button a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+.button2 {
+  padding-top: 18px;
+}
+.information3 {
+  background-image: url(./img/completed.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: center;
+  height: 709px;
+  max-width: 1900px;
+  background-size: cover;
+}
+.container3 {
+  padding-top: 405px;
+  margin-left: 118px;
+}
+.information3 h4 {
+  font-size: 16px;
+  font-family: D-DIN-Medium, Arial, Verdana, sans-serif;
+  font-weight: 400;
+}
+.information3 h1 {
+  font-size: 42px;
+  width: 600px;
+  font-family: D-DIN-Bold, Arial, Verdana, sans-serif;
+  font-weight: 550;
+}
+.information3 button {
+  background: transparent;
+  border: 3px solid white;
+  padding: 15px 40px;
+}
+.information3 button a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+.button3 {
+  padding-top: 18px;
+}
+.information4 {
+  background-image: url(./img/starling.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: center;
+  height: 709px;
+  max-width: 1900px;
+  margin: 0;
+  background-size: cover;
+}
+.container4 {
+  padding-top: 420px;
+  margin-left: 118px;
+}
+.information4 h4 {
+  font-size: 16px;
+  font-family: D-DIN-Medium, Arial, Verdana, sans-serif;
+  font-weight: 400;
+}
+.information4 h1 {
+  font-size: 42px;
+  width: 600px;
+  font-family: D-DIN-Bold, Arial, Verdana, sans-serif;
+  font-weight: 550;
+}
+.information4 button {
+  background: transparent;
+  border: 3px solid white;
+  padding: 15px 40px;
+}
+.information4 button a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+.button4 {
+  padding-top: 18px;
+}
+
+.information5 {
+  background-image: url(./img/recent.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: center;
+  height: 709px;
+  max-width: 1900px;
+  background-size: cover;
+}
+.container5 {
+  padding-top: 350px;
+  margin-left: 118px;
+}
+.information5 h4 {
+  font-size: 16px;
+  font-family: D-DIN-Medium, Arial, Verdana, sans-serif;
+  font-weight: 400;
+}
+.information5 h1 {
+  font-size: 42px;
+  width: 600px;
+  font-family: D-DIN-Bold, Arial, Verdana, sans-serif;
+  font-weight: 550;
+}
+.information5 button {
+  background: transparent;
+  border: 3px solid white;
+  padding: 15px 40px;
+}
+.information5 button a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+.button5 {
+  padding-top: 18px;
+}
+@media all and (max-width: 900px) {
+  .header {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .header li {
+    margin: 0 auto;
+  }
+  .information {
+    padding-top: 180px;
+  }
+  .information h1 {
+    width: 400px;
+  }
+}
